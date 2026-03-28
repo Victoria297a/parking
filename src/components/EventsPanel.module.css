@@ -1,0 +1,107 @@
+.panel {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+  overflow: hidden;
+}
+
+.toggle {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  padding: 12px 14px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 600;
+  color: #333;
+  text-align: left;
+}
+
+.toggle:hover {
+  background: #f5f5f5;
+}
+
+.badge {
+  background: #1565C0;
+  color: white;
+  font-size: 11px;
+  border-radius: 10px;
+  padding: 1px 7px;
+  margin-left: auto;
+}
+
+.arrow {
+  font-size: 10px;
+  color: #888;
+}
+
+.list {
+  padding: 0 14px 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.eventItem {
+  background: #f9f9f9;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.eventHeader {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  margin-bottom: 4px;
+}
+
+.icon {
+  font-size: 20px;
+  line-height: 1;
+}
+
+.eventInfo {
+  flex: 1;
+}
+
+.eventName {
+  font-size: 13px;
+  font-weight: 600;
+  color: #222;
+}
+
+.venue {
+  font-size: 11px;
+  color: #777;
+}
+
+.impact {
+  font-size: 11px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.desc {
+  font-size: 12px;
+  color: #555;
+  margin-bottom: 8px;
+  line-height: 1.4;
+}
+
+.flyBtn {
+  font-size: 12px;
+  background: #E3F2FD;
+  color: #1565C0;
+  border: none;
+  border-radius: 6px;
+  padding: 4px 10px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.flyBtn:hover {
+  background: #BBDEFB;
+}

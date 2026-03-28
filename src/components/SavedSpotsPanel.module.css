@@ -1,0 +1,94 @@
+.panel {
+  background: white;
+  border-radius: 12px;
+  padding: 12px 14px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+}
+
+.title {
+  font-size: 13px;
+  font-weight: 700;
+  color: #333;
+  margin: 0 0 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.empty {
+  font-size: 12px;
+  color: #888;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: #f9f9f9;
+  border-radius: 8px;
+  padding: 8px 10px;
+}
+
+.itemInfo {
+  flex: 1;
+  min-width: 0;
+}
+
+.name {
+  font-size: 13px;
+  font-weight: 600;
+  color: #222;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.coords {
+  font-size: 11px;
+  color: #888;
+  font-family: monospace;
+}
+
+.time {
+  font-size: 11px;
+  color: #aaa;
+}
+
+.actions {
+  display: flex;
+  gap: 4px;
+}
+
+.flyBtn, .navBtn, .removeBtn {
+  border: none;
+  border-radius: 6px;
+  padding: 4px 8px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.flyBtn {
+  background: #E3F2FD;
+}
+
+.navBtn {
+  background: #E8F5E9;
+}
+
+.removeBtn {
+  background: #FFEBEE;
+  font-size: 12px;
+  color: #C62828;
+  font-weight: 600;
+}
+
+.flyBtn:hover { background: #BBDEFB; }
+.navBtn:hover { background: #C8E6C9; }
+.removeBtn:hover { background: #FFCDD2; }
