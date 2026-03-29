@@ -1,0 +1,65 @@
+.legend {
+  background: white;
+  border-radius: 12px;
+  padding: 12px 14px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+  min-width: 200px;
+}
+
+.title {
+  font-size: 13px;
+  font-weight: 700;
+  color: #333;
+  margin: 0 0 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  background: none;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  padding: 6px 8px;
+  cursor: pointer;
+  margin-bottom: 4px;
+  transition: all 0.15s ease;
+  text-align: left;
+}
+
+.item.active {
+  background: var(--zone-light);
+  border-color: var(--zone-color);
+}
+
+.item.inactive {
+  opacity: 0.45;
+}
+
+.item:hover {
+  opacity: 1;
+  background: var(--zone-light);
+}
+
+.dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.label {
+  font-size: 13px;
+  font-weight: 500;
+  color: #333;
+  flex: 1;
+}
+
+.price {
+  font-size: 11px;
+  color: #777;
+  white-space: nowrap;
+}
